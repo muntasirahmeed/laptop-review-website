@@ -24,7 +24,7 @@ const Home = () => {
           </div>
           <div className="	">
             <img
-              className=" mb-5 md:m-0  md:w-full md:object-cover p-4 rounded-xl "
+              className=" mb-5 md:m-0 h-auto  md:w-full md:object-cover p-4 rounded-xl "
               src={headerImg2}
               alt=""
             />
