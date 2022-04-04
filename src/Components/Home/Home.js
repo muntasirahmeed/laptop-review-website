@@ -4,7 +4,7 @@ import headerImg2 from '../../Assets/headerImg2.png'
 import useReview from '../../hooks/useReview';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
 const Home = () => {
-    const [reviwes, setReviews] = useReview();
+    const [reviews, setReviews] = useReview();
     const navigate =useNavigate()
     return (
       <div>
@@ -37,10 +37,10 @@ const Home = () => {
         {/* review section  */}
         <div className="py-16 bg-gray-100">
           <h1 className="text-center text-3xl mb-10">
-            Customar Reviews : {reviwes.length}
+            Customar Reviews : {reviews.length}
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 justify-items-center ">
-            {reviwes.slice(0, 3).map((singleReview) => (
+            {reviews.slice(0, 3).map((singleReview) => (
               <ReviewDetails
                 key={singleReview.id}
                 singleReview={singleReview}
