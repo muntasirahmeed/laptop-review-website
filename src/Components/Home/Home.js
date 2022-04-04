@@ -10,16 +10,20 @@ const Home = () => {
       <div>
         <div className="flex flex-col-reverse md:flex-row h-full md:h-[90vh] items-center px-10 py-10 bg-pink-50 	 mx-auto">
           <div className="space-y-5 w-full md:w-1/2">
-            <h1 className="text-2xl md:text-5xl font-semibold text-pink-700">
-              Welcome to Review Bazzar
+            <h1 className="text-2xl md:text-5xl font-semibold text-pink-700 ">
+              Welcome to{" "}
+              <span className="font-mono text-green-700">Tech Info</span>
             </h1>
             <p className="text-xl text-gray-600">
               Wanna Buy a Laptop? Then must be know the information about your
               Favourite model . we are help you too know the information click
               the button to explore
             </p>
-            <button className="bg-pink-700 text-white px-6 py-2 text-normal rounded-full ">
-              Explore
+            <button
+              onClick={() => navigate("/reviews")}
+              className="bg-pink-700 text-white px-6 py-2 text-normal rounded-full "
+            >
+              Expart Says
             </button>
           </div>
           <div className="	">
