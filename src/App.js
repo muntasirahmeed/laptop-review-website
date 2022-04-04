@@ -7,10 +7,11 @@ import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import NotFound from "./Components/NotFound/NotFound";
 import Review from "./Components/Review/Review";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="max-w-screen-2xl mx-auto">
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

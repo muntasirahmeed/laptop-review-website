@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-      <div className="bg-slate-100 h-screen">
+      <div className="bg-slate-100 h-full">
         <h1 className="text-3xl md:text-5xl text-center py-10 text-gray-600">
           Question Answers
         </h1>

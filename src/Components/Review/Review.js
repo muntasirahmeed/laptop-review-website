@@ -5,7 +5,7 @@ import ReviewDetails from '../ReviewDetails/ReviewDetails';
 const Review = () => {
   const [reviews,setReviews] = useReview();
     return (
-      <div className='bg-gray-100'>
+      <div className='bg-gray-100 pb-12'>
         <h1 className="text-2xl md:text-3xl xl:text-5xl text-center py-10 text-gray-600">
           Welcome To Reviews Page
         </h1>
