@@ -10,7 +10,7 @@ const Home = () => {
       <div>
         <div className="flex flex-col-reverse md:flex-row h-full md:h-[90vh] items-center px-10 py-10 bg-pink-50 	 mx-auto">
           <div className="space-y-5 w-full md:w-1/2">
-            <h1 className="text-2xl md:text-6xl font-semibold text-pink-700">
+            <h1 className="text-2xl md:text-5xl font-semibold text-pink-700">
               Welcome to Review Bazzar
             </h1>
             <p className="text-xl text-gray-600">
